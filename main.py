@@ -10,7 +10,7 @@ def execute():
     querystring = {"q":"17.4401, 78.3489"}
 
     headers = {
-        "X-RapidAPI-Key": os.environ["API_TOKEN"], #"7e46d3a0d6mshbe889c621eb39dbp1421d8jsne6ab09f22712",
+        "X-RapidAPI-Key": os.environ["API_TOKEN"],
         "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
     }
 
@@ -26,7 +26,7 @@ def execute():
     smtp_server = "smtp.gmail.com" 
     smtp_port = 587  # Port for TLS (587 for Gmail)
     smtp_username = "tarunmuchhal11@gmail.com"
-    smtp_password = os.environ["GMAIL_USER"] #"pzkaqfauyqthpzzx"
+    smtp_password = os.environ["GMAIL_USER"]
 
     message = MIMEMultipart()
     message["From"] = sender_email
