@@ -1,0 +1,5 @@
+email
+os
+requests
+smtplib
+json
