@@ -36,7 +36,7 @@ def execute():
     html_content = f"""
     <html>
     <body style="font-size: 18px;">
-        <p>Here is a PNG image:</p>
+        <p>Here is the weather Data</p>
         <br/><strong>"Today we mostly experience : "   <strong/>, {response["current"]["condition"]["text"]}<strong/>
         <br/><strong>"Time : "                         <strong/>, {response["current"]["last_updated"]}
         <br/><strong>"Temprature : "                   <strong/>, {response["current"]["temp_c"]}
