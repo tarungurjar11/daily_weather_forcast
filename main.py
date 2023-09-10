@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 def execute():
     url = "https://weatherapi-com.p.rapidapi.com/current.json"
 
-    querystring = {"q":"17.4401, 78.3489"}
+    querystring = {"q":"17.4173, 78.3779"} 
 
     headers = {
         "X-RapidAPI-Key": os.environ["API_TOKEN"],
